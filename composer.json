@@ -12,8 +12,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "contao/core-bundle":"^4.4",
-    "symfony/framework-bundle": "^3.3"
+    "contao/core-bundle":"^4.1"
   },
   "extra": {
     "contao-manager-plugin": "agentur1601com\\Coninnav\\ContaoManager\\Plugin"
