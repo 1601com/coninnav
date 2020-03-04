@@ -1,0 +1,31 @@
+{
+  "name": "agentur1601com/coninnav",
+  "description": "Extends navigation with content",
+  "type":"symfony-bundle",
+  "license":"LGPL-3.0+",
+  "authors": [
+    {
+      "name"    : "Lukas Beck",
+      "email"   : "lb@1601.com",
+      "homepage"  : "https://github.com/LBeckX"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "contao/core-bundle":"^4.4",
+    "symfony/framework-bundle": "^3.3"
+  },
+  "extra": {
+    "contao-manager-plugin": "agentur1601com\\Coninnav\\ContaoManager\\Plugin"
+  },
+  "autoload": {
+    "psr-4": {
+      "agentur1601com\\Coninnav\\": "src/"
+    },
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/"
+    ]
+  }
+}
